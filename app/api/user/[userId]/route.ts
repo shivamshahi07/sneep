@@ -25,7 +25,6 @@ export async function GET(
     console.error('Error fetching user: ', error);
   }
 }
-
 export async function POST(request: Request) {
   const body = await request.json();
 
